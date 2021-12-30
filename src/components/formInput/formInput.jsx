@@ -68,7 +68,7 @@ const FormInput = ({type, placeholder, inputName}) => {
 		<InputWrapper>
 			<div className="form__group field">
 				<input type={type} className="form__field" placeholder={placeholder} name={inputName} required />
-				<label for={inputName} className="form__label">{placeholder}</label>
+				<label htmlFor={inputName} className="form__label">{placeholder}</label>
 			</div>
 		</InputWrapper>
 	);
